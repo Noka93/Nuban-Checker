@@ -64,3 +64,61 @@ input::-webkit-inner-spin-button {
 	-webkit-appearance: none;
 	margin: 0;
 }
+
+@media (max-width: 480px) {
+    form {
+        height: auto;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .header h1 {
+        font-size: 24px;
+    }
+
+    .header p {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    form input,
+    form select {
+        font-size: 14px;
+        height: 30px;
+    }
+
+    form button {
+        height: 35px;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+	form {
+		width: 100%;
+		padding: 20px;
+	}
+
+	.header h1 {
+		font-size: 30px;
+	}
+
+	.header p {
+		font-size: 16px;
+		margin-bottom: 10px;
+	}
+
+	form input,
+	form select {
+		font-size: 14px;
+		height: 35px;
+	}
+
+	form button {
+		height: 40px;
+		font-size: 16px;
+		margin-top: 15px;
+	}
+}

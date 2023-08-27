@@ -35,3 +35,30 @@
 .details span {
 	font-weight: 600;
 }
+
+@media (max-width: 480px) {
+	.profile img {
+		height: 60px;
+		width: 60px;
+	}
+
+	.profile button {
+		padding: 6px 12px;
+		font-size: 12px;
+		margin-top: 10px;
+	}
+
+	.details p {
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 768px) {
+	.profile {
+		padding: 10px;
+	}
+
+	.profile button {
+		padding: 8px 15px;
+	}
+}
