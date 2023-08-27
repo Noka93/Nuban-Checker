@@ -36,7 +36,17 @@
 	font-weight: 600;
 }
 
-/* @media (max-width: 480px) {
+@media (max-width: 600px) {
+	.profile {
+		padding: 10px;
+	}
+
+	.profile button {
+		padding: 8px 15px;
+	}
+}
+
+@media (max-width: 480px) {
 	.profile img {
 		height: 60px;
 		width: 60px;
@@ -52,13 +62,3 @@
 		font-size: 14px;
 	}
 }
-
-@media (max-width: 768px) {
-	.profile {
-		padding: 10px;
-	}
-
-	.profile button {
-		padding: 8px 15px;
-	}
-} */
