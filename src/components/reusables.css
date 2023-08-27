@@ -65,38 +65,19 @@ input::-webkit-inner-spin-button {
 	margin: 0;
 }
 
-@media (max-width: 480px) {
-    form {
-        height: auto;
-        width: 100%;
-        padding: 20px;
-    }
-
-    .header h1 {
-        font-size: 24px;
-    }
-
-    .header p {
-        font-size: 14px;
-        margin-bottom: 10px;
-    }
-
-    form input,
-    form select {
-        font-size: 14px;
-        height: 30px;
-    }
-
-    form button {
-        height: 35px;
-        font-size: 14px;
-        margin-top: 10px;
-    }
-}
-
-
 @media only screen and (max-width: 600px) {
 	form {
+		height: 350px;
+		width: 400px;
+		padding: 20px;
+	}
+
+	.header h1 {
+		color: #557153;
+		font-weight: 900;
+		font-size: 30px;
+	}
+	/* form {
 		width: 100%;
 		padding: 20px;
 	}
@@ -120,5 +101,34 @@ input::-webkit-inner-spin-button {
 		height: 40px;
 		font-size: 16px;
 		margin-top: 15px;
+	} */
+}
+
+@media (max-width: 480px) {
+	form {
+		height: auto;
+		width: 100%;
+		padding: 20px;
+	}
+
+	.header h1 {
+		font-size: 24px;
+	}
+
+	.header p {
+		font-size: 14px;
+		margin-bottom: 10px;
+	}
+
+	form input,
+	form select {
+		font-size: 14px;
+		height: 30px;
+	}
+
+	form button {
+		height: 35px;
+		font-size: 14px;
+		margin-top: 10px;
 	}
 }

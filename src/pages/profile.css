@@ -36,7 +36,7 @@
 	font-weight: 600;
 }
 
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
 	.profile img {
 		height: 60px;
 		width: 60px;
@@ -61,4 +61,4 @@
 	.profile button {
 		padding: 8px 15px;
 	}
-}
+} */
